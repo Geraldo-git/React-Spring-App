@@ -27,38 +27,38 @@ const Catalog = () => {
   };
   return (
     <div className="container my-4 catalog-container">
-      <div className="row catalog-title-container"> 
-      <h1>Catalogo de produtos</h1>
+      <div className="row catalog-title-container">
+        <h1>Catalogo de produtos</h1>
       </div>
       <div className="row">
         <div className="col-sm-6 col-lg-4 col-xl-3">
-          <Link to= "/products/1">
-          <ProductCard product={product} />
+          <Link to="/products/1">
+            <ProductCard product={product} />
           </Link>
         </div>
         <div className="col-sm-6 col-lg-4 col-xl-3">
-        <Link to= "/products/1">
-          <ProductCard product={product} />
+          <Link to="/products/1">
+            <ProductCard product={product} />
           </Link>
         </div>
         <div className="col-sm-6 col-lg-4 col-xl-3">
-        <Link to= "/products/1">
-          <ProductCard product={product} />
+          <Link to="/products/1">
+            <ProductCard product={product} />
           </Link>
         </div>
         <div className="col-sm-6 col-lg-4 col-xl-3">
-        <Link to= "/products/1">
-          <ProductCard product={product} />
+          <Link to="/products/1">
+            <ProductCard product={product} />
           </Link>
         </div>
         <div className="col-sm-6 col-lg-4 col-xl-3">
-        <Link to= "/products/1">
-          <ProductCard product={product} />
+          <Link to="/products/1">
+            <ProductCard product={product} />
           </Link>
         </div>
       </div>
       <div className="row">
-      <Pagination />
+        <Pagination />
       </div>
     </div>
   );
